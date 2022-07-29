@@ -44,6 +44,16 @@ body {
   list-style: none;
 }
 
+.left-align {
+  float: left;
+  padding-bottom: 10px;
+}
+
+.right-align {
+  float: right;
+  padding-bottom: 10px;
+}
+
 .list-bottom {
   width: 25%;
   margin-top: 10px;
@@ -67,7 +77,15 @@ body {
   padding: 30px 70px 143px 70px;
 }
 
-.login h1 {
+.loginhome {
+  margin: 0 auto;
+  width: 1080px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 30px 70px 143px 70px;
+}
+
+.login h1, h2, h3, h4 {
   color: white;
   padding-bottom: 10px;
 }
@@ -100,7 +118,19 @@ body {
 
 .signin-button {
   margin-top: 20px;
+  padding: 13px;
   width: 100%;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.signin-button-left {
+  margin-top: 20px;
   padding: 13px;
   border-radius: 5px;
   background-color: red;
@@ -109,6 +139,21 @@ body {
   font-weight: bold;
   font-size: 1.05rem;
   cursor: pointer;
+  float: left;
+}
+
+.signin-button-right {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.05rem;
+  cursor: pointer;
+  float: right;
 }
 
 .remember-flex {
